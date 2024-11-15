@@ -1,0 +1,92 @@
+.detailedPostPageParent {
+  margin: 0;
+  padding: 0;
+}
+
+.commentSeparatorParent {
+  background-color: #eceff4;
+  padding: 20px;
+  margin: 0px 50px 0px 50px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(18, 26, 36, 0.5);
+}
+
+.commentButton {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  font-size: 1.5em;
+  border-radius: 5px;
+  border-left: 200px;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modalContent h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.modalTextarea {
+  width: 95%;
+  min-height: 150px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  resize: vertical;
+}
+
+.modalButtons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.modalPostButton {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modalPostButton:hover {
+  background-color: #1557b0;
+}
+
+.modalCancelButton {
+  background-color: #f1f3f4;
+  color: #333;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modalCancelButton:hover {
+  background-color: #e8eaed;
+}

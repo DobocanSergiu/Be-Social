@@ -1,0 +1,33 @@
+.Parent {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  height: 100vh;
+  padding-top: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.tabContainer {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  background-color: #2f435b;
+  gap: 3%;
+  height: 10%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.tab {
+  padding: 1.5% 2% 2%;
+  cursor: pointer;
+}
+
+.tabUnderline {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  margin-top: 5px;
+}
+

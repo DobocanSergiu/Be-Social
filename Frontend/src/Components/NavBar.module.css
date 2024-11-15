@@ -1,0 +1,52 @@
+.NavBarParent {
+  background-color: #5e81ac;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.NavBarProfilePic {
+  margin-left: 3%;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background-color: #fdfbd4;
+  overflow: hidden;
+  border: 3px solid #bf616a;
+}
+
+.NavBarProfilePic:hover {
+  margin-left: 3%;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background-color: #fdfbd4;
+  overflow: hidden;
+  border: 3px solid #2f435b;
+}
+
+
+.NavBarProfilePicContent{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+
+}
+
+.NavBarIconsPadding {
+  padding-left: 20%;
+}
+
+.NavBarIcons {
+  width: 30px;
+  height: 30px;
+  align-items: center;
+}
+
+.NavBarSelectedIconMarker {
+  width: 30px;
+  height: 2px;
+  background-color: black;
+  margin-top: 5px;
+}

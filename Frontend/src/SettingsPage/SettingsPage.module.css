@@ -1,0 +1,108 @@
+.container {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  height: 100vh;
+}
+
+.settingsCard {
+  background-color: #2f435b;
+  margin-top: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
+  border-radius: 1%;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  width: 17.5em;
+  gap: 0.5em;
+  color: white;
+}
+
+.inputGroup:first-child {
+  padding-top: 1em;
+}
+
+.input {
+  border-color: #8bcef7;
+  border-width: 3px;
+  padding: 0.5em;
+  border-style: solid;
+  border-radius: 4px;
+}
+
+.bioTextarea {
+  height: 20em;
+  width: 20em;
+  resize: none;
+  border-color: #8bcef7;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 4px;
+  padding: 0.5em;
+}
+
+.select {
+  border-color: #8bcef7;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 4px;
+  padding: 0.5em;
+}
+
+.privateOption {
+  color: red;
+}
+
+.friendsOption {
+  color: #ff7518;
+}
+
+.publicOption {
+  color: green;
+}
+
+.confirmButton {
+  margin-left: 10%;
+  margin-bottom: 1em;
+  background-color: #5e81ac;
+  color: #ffffff;
+  border-radius: 50px;
+  padding: 0.5em 1em;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.confirmButton:hover {
+  background-color: #4c6a8f;
+}
+
+/* Add some improvements to form elements */
+.input:focus,
+.bioTextarea:focus,
+.select:focus {
+  outline: none;
+  border-color: #5e81ac;
+  box-shadow: 0 0 0 2px rgba(94, 129, 172, 0.2);
+}
+
+/* Add responsive design */
+@media (max-width: 768px) {
+  .settingsCard {
+    margin: 2% 1%;
+  }
+
+  .inputGroup {
+    width: 90%;
+    max-width: 17.5em;
+  }
+
+  .bioTextarea {
+    width: 100%;
+  }
+}
